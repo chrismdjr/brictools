@@ -1,0 +1,7 @@
+%include examples/foolib.bsplt
+
+load c5 FOOLIB_OP1
+load c5 FOOLIB_OP2
+FOOLIB_ADD
+
+copy FOOLIB_RET io-200

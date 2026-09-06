@@ -1,0 +1,6 @@
+%macro FOOLIB_OP1 m1
+%macro FOOLIB_OP2 m2
+%macro FOOLIB_RET m3
+
+. %macro FOOLIB_ADD
+.    add FOOLIB_OP1 FOOLIB_OP2 FOOLIB_RET

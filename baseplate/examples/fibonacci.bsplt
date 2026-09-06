@@ -1,0 +1,9 @@
+$ fibonacci sequence
+%label fibonacci
+load c1 m1
+load c1 m2
+add m1 m2 m3
+copy m2 m1
+copy m3 m2
+copy m3 io-200
+jump fibonacci

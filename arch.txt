@@ -1,0 +1,27 @@
+100 add       <reg src1> <reg src2> <reg dst>
+101 sub       <reg src1> <reg src2> <reg dst>
+102 mul       <reg src1> <reg src2> <reg dst>
+103 div       <reg src1> <reg src2> <reg dst>
+104 pow       <reg src1> <reg src2> <reg dst>
+105 and       <reg src1> <reg src2> <reg dst>
+106 or        <reg src1> <reg src2> <reg dst>
+107 xor       <reg src1> <reg src2> <reg dst>
+108 sqrt      <reg src1> <null> <reg dst>
+109 sin       <reg src1> <null> <reg dst>
+110 cos       <reg src1> <null> <reg dst>
+111 tan       <reg src1> <null> <reg dst>
+112 mod       <reg src1> <reg src2> <reg dst>
+113 atan2     <reg src1 (y)> <reg src2 (x)> <reg dst>
+114 abs       <reg src1> <null> <reg dst>
+115 acos      <reg src1> <null> <reg dst>
+116 asin      <reg src1> <null> <reg dst>
+117 atan      <reg src1> <null> <reg dst>
+118 min       <reg src1> <reg src2> <reg dst>
+119 max       <reg src1> <reg src2> <reg dst>
+120 floor     <reg src1> <null> <reg dst> 
+200 load      <value> <reg dst>
+201 copy      <reg src> <reg dst>
+202 jump      <value dst>
+203 jump0     <value dst> <regtotest>
+204 baseconst <constant>
+205 basereg   <register>
